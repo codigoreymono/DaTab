@@ -1,0 +1,689 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>DaTab · Ingeniería de datos para empresas de Tabasco</title>
+  <meta name="description" content="DaTab diseña pipelines, modelos y dashboards para pymes de Tabasco, México, que necesitan una sola versión de la verdad. Dos ingenieros, trabajo directo.">
+  <meta name="author" content="DaTab">
+  <meta name="color-scheme" content="light">
+  <meta name="theme-color" content="#f7f6f2">
+  <meta name="geo.region" content="MX-TAB">
+  <meta name="geo.placename" content="Tabasco, México">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="es_MX">
+  <meta property="og:site_name" content="DaTab">
+  <meta property="og:url" content="https://datatab.com.mx/">
+  <meta property="og:title" content="DaTab · Ingeniería de datos para empresas de Tabasco">
+  <meta property="og:description" content="Ingeniería de datos para empresas de Tabasco, México. Pipelines, modelos y dashboards confiables, construidos por dos ingenieros.">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="canonical" href="https://datatab.com.mx/">
+  <link rel="preload" href="assets/fonts/ibm-plex-sans-regular.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#contenido">Saltar al contenido</a>
+
+  <header class="site-header">
+    <div class="shell header-inner">
+      <a class="brand" href="#inicio" aria-label="DaTab, inicio">
+        <svg class="brand-mark" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+          <rect class="mark-cell" x="1" y="1" width="6" height="6" rx="1.2"></rect>
+          <rect class="mark-cell mark-cell--mid" x="9" y="1" width="6" height="6" rx="1.2"></rect>
+          <rect class="mark-cell mark-cell--on" x="17" y="1" width="6" height="6" rx="1.2"></rect>
+          <rect class="mark-cell mark-cell--mid" x="1" y="9" width="6" height="6" rx="1.2"></rect>
+          <rect class="mark-cell mark-cell--on" x="9" y="9" width="6" height="6" rx="1.2"></rect>
+          <rect class="mark-cell" x="17" y="9" width="6" height="6" rx="1.2"></rect>
+          <rect class="mark-cell mark-cell--on" x="1" y="17" width="6" height="6" rx="1.2"></rect>
+          <rect class="mark-cell" x="9" y="17" width="6" height="6" rx="1.2"></rect>
+          <rect class="mark-cell mark-cell--mid" x="17" y="17" width="6" height="6" rx="1.2"></rect>
+        </svg>
+        <span class="brand-word">Da<span class="brand-word-accent">Tab</span></span>
+      </a>
+
+      <nav class="site-nav" aria-label="Navegación principal">
+        <a href="#proceso">Proceso</a>
+        <a href="#demo">Demo</a>
+        <a href="#servicios">Servicios</a>
+        <a href="#equipo">Equipo</a>
+        <a class="nav-cta" href="#contacto">Agendar diagnóstico</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="contenido">
+    <section class="hero" id="inicio">
+      <div class="shell">
+        <div class="hero-copy">
+          <p class="eyebrow"><span class="dot" aria-hidden="true"></span> Ingeniería de datos · Tabasco, México</p>
+          <h1>Datos que sostienen <em>decisiones</em>.</h1>
+          <p class="lede">Dos ingenieros de datos. Construimos pipelines, modelos y dashboards para empresas de Tabasco que ya venden por varios canales y necesitan una sola versión de la verdad.</p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#contacto">
+              Agendar diagnóstico
+              <svg viewBox="0 0 16 16" aria-hidden="true" focusable="false"><path d="M3 8h9M8.5 4.5 12 8l-3.5 3.5" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+            </a>
+            <a class="btn btn-ghost" href="#proceso">Ver el proceso</a>
+          </div>
+          <ul class="hero-points">
+            <li>Trabajo directo con los dos ingenieros</li>
+            <li>Sin licencias innecesarias</li>
+            <li>Documentación y tests incluidos</li>
+          </ul>
+        </div>
+
+        <div class="dag-panel">
+          <div class="panel-top">
+            <div>
+              <p class="panel-kicker">El recorrido del dato</p>
+              <h2 class="panel-title" id="dag-title">De la fuente al tablero.</h2>
+            </div>
+            <span class="status-pill"><span class="status-dot" aria-hidden="true"></span> pipeline sano</span>
+          </div>
+
+          <div class="dag-wrap dag-horizontal">
+            <svg class="dag-svg" viewBox="0 0 1120 300" role="img" aria-hidden="true" focusable="false">
+              <defs>
+                <marker id="arrow-h" viewBox="0 0 8 8" refX="7" refY="4" markerWidth="8" markerHeight="8" orient="auto">
+                  <path class="arrow-head" d="M0 0 L8 4 L0 8 Z"></path>
+                </marker>
+              </defs>
+
+              <path class="edge" d="M160 132 H184" marker-end="url(#arrow-h)"></path>
+              <path class="edge" d="M324 132 H348" marker-end="url(#arrow-h)"></path>
+              <path class="edge" d="M488 132 H512" marker-end="url(#arrow-h)"></path>
+              <path class="edge" d="M652 132 H676" marker-end="url(#arrow-h)"></path>
+              <path class="edge" d="M816 132 H840" marker-end="url(#arrow-h)"></path>
+              <path class="edge" d="M980 132 C 995 132, 995 92, 1010 92" marker-end="url(#arrow-h)"></path>
+              <path class="edge" d="M980 132 C 995 132, 995 172, 1010 172" marker-end="url(#arrow-h)"></path>
+
+              <path class="edge-flow" d="M160 132 H184"></path>
+              <path class="edge-flow" d="M324 132 H348"></path>
+              <path class="edge-flow" d="M488 132 H512"></path>
+              <path class="edge-flow" d="M652 132 H676"></path>
+              <path class="edge-flow" d="M816 132 H840"></path>
+              <path class="edge-flow" d="M980 132 C 995 132, 995 92, 1010 92"></path>
+              <path class="edge-flow" d="M980 132 C 995 132, 995 172, 1010 172"></path>
+
+              <g class="dag-node" style="--i:0">
+                <rect class="node-box" x="20" y="100" width="140" height="64" rx="12"></rect>
+                <text class="node-label" x="90" y="126" text-anchor="middle">sources</text>
+                <text class="node-meta" x="90" y="146" text-anchor="middle">APIs · DB · SaaS</text>
+              </g>
+              <g class="dag-node" style="--i:1">
+                <rect class="node-box" x="184" y="100" width="140" height="64" rx="12"></rect>
+                <text class="node-label" x="254" y="126" text-anchor="middle">ingest</text>
+                <text class="node-meta" x="254" y="146" text-anchor="middle">Airflow · Dagster</text>
+              </g>
+              <g class="dag-node" style="--i:2">
+                <rect class="node-box" x="348" y="100" width="140" height="64" rx="12"></rect>
+                <text class="node-label" x="418" y="126" text-anchor="middle">raw</text>
+                <text class="node-meta" x="418" y="146" text-anchor="middle">almacenamiento</text>
+              </g>
+              <g class="dag-node dag-node--accent" style="--i:3">
+                <rect class="node-box" x="512" y="100" width="140" height="64" rx="12"></rect>
+                <text class="node-label" x="582" y="126" text-anchor="middle">transform</text>
+                <text class="node-meta" x="582" y="146" text-anchor="middle">dbt · SQL</text>
+              </g>
+              <g class="dag-node" style="--i:4">
+                <rect class="node-box" x="676" y="100" width="140" height="64" rx="12"></rect>
+                <text class="node-label" x="746" y="126" text-anchor="middle">test</text>
+                <text class="node-meta" x="746" y="146" text-anchor="middle">calidad · alertas</text>
+              </g>
+              <g class="dag-node dag-node--accent" style="--i:5">
+                <rect class="node-box" x="840" y="100" width="140" height="64" rx="12"></rect>
+                <text class="node-label" x="910" y="126" text-anchor="middle">serve</text>
+                <text class="node-meta" x="910" y="146" text-anchor="middle">BI · modelos</text>
+              </g>
+
+              <g class="dag-output" style="--i:6">
+                <rect class="output-box" x="1010" y="72" width="96" height="40" rx="10"></rect>
+                <text class="output-label" x="1058" y="89" text-anchor="middle">BI</text>
+                <text class="output-meta" x="1058" y="103" text-anchor="middle">tableros</text>
+              </g>
+              <g class="dag-output" style="--i:7">
+                <rect class="output-box" x="1010" y="152" width="96" height="40" rx="10"></rect>
+                <text class="output-label" x="1058" y="169" text-anchor="middle">ML / IA</text>
+                <text class="output-meta" x="1058" y="183" text-anchor="middle">modelos</text>
+              </g>
+            </svg>
+          </div>
+
+          <div class="dag-wrap dag-vertical">
+            <svg class="dag-svg" viewBox="0 0 360 580" role="img" aria-hidden="true" focusable="false">
+              <defs>
+                <marker id="arrow-v" viewBox="0 0 8 8" refX="7" refY="4" markerWidth="8" markerHeight="8" orient="auto">
+                  <path class="arrow-head" d="M0 0 L8 4 L0 8 Z"></path>
+                </marker>
+              </defs>
+
+              <path class="edge" d="M180 82 V104" marker-end="url(#arrow-v)"></path>
+              <path class="edge" d="M180 162 V184" marker-end="url(#arrow-v)"></path>
+              <path class="edge" d="M180 242 V264" marker-end="url(#arrow-v)"></path>
+              <path class="edge" d="M180 322 V344" marker-end="url(#arrow-v)"></path>
+              <path class="edge" d="M180 402 V424" marker-end="url(#arrow-v)"></path>
+              <path class="edge" d="M180 482 C 180 500, 105 500, 105 520" marker-end="url(#arrow-v)"></path>
+              <path class="edge" d="M180 482 C 180 500, 255 500, 255 520" marker-end="url(#arrow-v)"></path>
+
+              <path class="edge-flow" d="M180 82 V104"></path>
+              <path class="edge-flow" d="M180 162 V184"></path>
+              <path class="edge-flow" d="M180 242 V264"></path>
+              <path class="edge-flow" d="M180 322 V344"></path>
+              <path class="edge-flow" d="M180 402 V424"></path>
+              <path class="edge-flow" d="M180 482 C 180 500, 105 500, 105 520"></path>
+              <path class="edge-flow" d="M180 482 C 180 500, 255 500, 255 520"></path>
+
+              <g class="dag-node" style="--i:0">
+                <rect class="node-box" x="80" y="24" width="200" height="58" rx="12"></rect>
+                <text class="node-label" x="180" y="48" text-anchor="middle">sources</text>
+                <text class="node-meta" x="180" y="66" text-anchor="middle">APIs · DB · SaaS</text>
+              </g>
+              <g class="dag-node" style="--i:1">
+                <rect class="node-box" x="80" y="104" width="200" height="58" rx="12"></rect>
+                <text class="node-label" x="180" y="128" text-anchor="middle">ingest</text>
+                <text class="node-meta" x="180" y="146" text-anchor="middle">Airflow · Dagster</text>
+              </g>
+              <g class="dag-node" style="--i:2">
+                <rect class="node-box" x="80" y="184" width="200" height="58" rx="12"></rect>
+                <text class="node-label" x="180" y="208" text-anchor="middle">raw</text>
+                <text class="node-meta" x="180" y="226" text-anchor="middle">almacenamiento</text>
+              </g>
+              <g class="dag-node dag-node--accent" style="--i:3">
+                <rect class="node-box" x="80" y="264" width="200" height="58" rx="12"></rect>
+                <text class="node-label" x="180" y="288" text-anchor="middle">transform</text>
+                <text class="node-meta" x="180" y="306" text-anchor="middle">dbt · SQL</text>
+              </g>
+              <g class="dag-node" style="--i:4">
+                <rect class="node-box" x="80" y="344" width="200" height="58" rx="12"></rect>
+                <text class="node-label" x="180" y="368" text-anchor="middle">test</text>
+                <text class="node-meta" x="180" y="386" text-anchor="middle">calidad · alertas</text>
+              </g>
+              <g class="dag-node dag-node--accent" style="--i:5">
+                <rect class="node-box" x="80" y="424" width="200" height="58" rx="12"></rect>
+                <text class="node-label" x="180" y="448" text-anchor="middle">serve</text>
+                <text class="node-meta" x="180" y="466" text-anchor="middle">BI · modelos</text>
+              </g>
+
+              <g class="dag-output" style="--i:6">
+                <rect class="output-box" x="40" y="520" width="130" height="38" rx="10"></rect>
+                <text class="output-label" x="105" y="537" text-anchor="middle">BI</text>
+                <text class="output-meta" x="105" y="551" text-anchor="middle">tableros</text>
+              </g>
+              <g class="dag-output" style="--i:7">
+                <rect class="output-box" x="190" y="520" width="130" height="38" rx="10"></rect>
+                <text class="output-label" x="255" y="537" text-anchor="middle">ML / IA</text>
+                <text class="output-meta" x="255" y="551" text-anchor="middle">modelos</text>
+              </g>
+            </svg>
+          </div>
+
+          <p class="dag-caption">Seis etapas para que el dato llegue completo, testeado y a tiempo.</p>
+          <div class="sr-only">
+            <h3>Etapas del pipeline</h3>
+            <ol>
+              <li><strong>sources:</strong> origen de los datos: APIs, bases de datos, servicios SaaS y archivos.</li>
+              <li><strong>ingest:</strong> ingesta programada, con reintentos y registro de cada corrida.</li>
+              <li><strong>raw:</strong> capa cruda, con el dato tal como llegó para poder auditarlo.</li>
+              <li><strong>transform:</strong> modelado y reglas de negocio con SQL y dbt.</li>
+              <li><strong>test:</strong> validaciones de calidad que avisan antes de publicar.</li>
+              <li><strong>serve:</strong> tableros y modelos listos para decidir.</li>
+            </ol>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section story" id="porque">
+      <div class="shell">
+        <div class="section-head">
+          <p class="eyebrow">El problema</p>
+          <h2>El lunes no falla el dashboard. <em>Falla el dato que lo alimenta.</em></h2>
+          <p class="section-lede">Cuando la operación crece, las planillas dejan de alcanzar. No porque el equipo trabaje mal, sino porque el dato vive en lugares distintos y nadie tiene una versión confiable para decidir.</p>
+        </div>
+
+        <div class="story-grid">
+          <article class="story-card">
+            <span class="story-index">01</span>
+            <h3>Tres fuentes, tres verdades</h3>
+            <p>La planilla de la tienda online, el reporte del marketplace y el sistema del local no cierran. Cada área defiende su número.</p>
+          </article>
+          <article class="story-card">
+            <span class="story-index">02</span>
+            <h3>La decisión llega tarde</h3>
+            <p>Para armar el informe hay que cruzar archivos a mano. Cuando el número está listo, la oportunidad ya pasó.</p>
+          </article>
+          <article class="story-card">
+            <span class="story-index">03</span>
+            <h3>Nadie sabe qué se rompió</h3>
+            <p>Un archivo cambia de formato o una API devuelve menos filas. El problema aparece recién en el cierre de mes.</p>
+          </article>
+        </div>
+
+        <div class="insight">
+          <p>El problema casi nunca es la herramienta. Es la falta de un sistema que haga visible, testeable y repetible el recorrido del dato.</p>
+        </div>
+
+        <div class="shift">
+          <div>
+            <span>Antes</span>
+            <p>Tres planillas, dos cifras y una reunión para decidir.</p>
+          </div>
+          <div class="shift-after">
+            <span>Con DaTab</span>
+            <p>Una fuente, reglas de calidad y un tablero al día.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section process" id="proceso">
+      <div class="shell">
+        <div class="section-head">
+          <p class="eyebrow">Cómo trabajamos</p>
+          <h2>Un proceso corto, con <em>entregables claros</em>.</h2>
+          <p class="section-lede">No empezamos por la herramienta. Empezamos por las decisiones que necesitas tomar y por la calidad de los datos que las sostienen.</p>
+        </div>
+
+        <div class="process-grid">
+          <article class="step">
+            <span class="step-num">01</span>
+            <span class="step-stage">sources</span>
+            <h3>Diagnóstico</h3>
+            <p>Mapeamos fuentes, KPIs y dolores. Salimos con un alcance priorizado y criterios de éxito.</p>
+            <span class="step-deliverable">Mapa de fuentes y alcance</span>
+          </article>
+          <article class="step">
+            <span class="step-num">02</span>
+            <span class="step-stage">ingest · raw</span>
+            <h3>Diseño</h3>
+            <p>Definimos el modelo, las reglas de calidad y la orquestación. Elegimos lo simple antes que lo de moda.</p>
+            <span class="step-deliverable">Diseño técnico</span>
+          </article>
+          <article class="step">
+            <span class="step-num">03</span>
+            <span class="step-stage">transform · test</span>
+            <h3>Implementación</h3>
+            <p>Construimos los pipelines, los tests y los dashboards. Todo queda versionado y documentado.</p>
+            <span class="step-deliverable">Pipeline + tablero</span>
+          </article>
+          <article class="step">
+            <span class="step-num">04</span>
+            <span class="step-stage">serve</span>
+            <h3>Entrega y acompañamiento</h3>
+            <p>Hacemos el handoff, monitoreamos la primera etapa y ajustamos lo que el negocio necesita.</p>
+            <span class="step-deliverable">Handoff y monitoreo</span>
+          </article>
+        </div>
+        <p class="process-note">El alcance, el plazo y los entregables se acuerdan antes de escribir la primera línea.</p>
+      </div>
+    </section>
+
+    <section class="section demo" id="demo">
+      <div class="shell">
+        <div class="section-head section-head--split">
+          <div>
+            <p class="eyebrow">El resultado</p>
+            <h2>Un lunes con una sola <em>versión de la verdad</em>.</h2>
+          </div>
+          <p class="section-lede">Así se ve un tablero operativo cuando el dato llega completo y testeado. Es un escenario ilustrativo con datos de ejemplo, no el resultado de un cliente.</p>
+        </div>
+
+        <div class="dashboard" role="group" aria-labelledby="dashboard-title">
+          <div class="dash-head">
+            <div>
+              <p class="dash-kicker">Retail multicanal · cifras en USD</p>
+              <h3 id="dashboard-title">Panel de ventas</h3>
+            </div>
+            <p class="demo-badge"><span aria-hidden="true">●</span> Escenario ilustrativo · datos de ejemplo</p>
+          </div>
+
+          <div class="kpi-grid">
+            <article class="kpi">
+              <p class="kpi-label">Ventas del día</p>
+              <p class="kpi-value">$18.420</p>
+              <p class="kpi-delta kpi-delta--up">+8,4% vs. ayer</p>
+            </article>
+            <article class="kpi">
+              <p class="kpi-label">Margen bruto</p>
+              <p class="kpi-value">41,8%</p>
+              <p class="kpi-delta kpi-delta--up">+1,2 pp vs. semana anterior</p>
+            </article>
+            <article class="kpi">
+              <p class="kpi-label">Ticket promedio</p>
+              <p class="kpi-value">$46</p>
+              <p class="kpi-delta kpi-delta--up">+3,1% vs. ayer</p>
+            </article>
+            <article class="kpi">
+              <p class="kpi-label">Conversión</p>
+              <p class="kpi-value">3,2%</p>
+              <p class="kpi-delta kpi-delta--down">−0,2 pp vs. ayer</p>
+            </article>
+          </div>
+
+          <div class="dash-grid">
+            <figure class="chart-card">
+              <figcaption>Ventas de los últimos 30 días <span>miles de USD</span></figcaption>
+              <svg class="chart-svg" viewBox="0 0 560 240" role="img" aria-labelledby="chart-title chart-desc">
+                <title id="chart-title">Ventas diarias de los últimos 30 días</title>
+                <desc id="chart-desc">La línea muestra ventas diarias de entre 11,2 y 24,1 miles de USD, con un cierre de 18,4 miles de USD.</desc>
+                <defs>
+                  <linearGradient id="chart-fill" x1="0" y1="0" x2="0" y2="1">
+                    <stop offset="0" stop-color="#5bb8a8" stop-opacity="0.34"></stop>
+                    <stop offset="1" stop-color="#5bb8a8" stop-opacity="0"></stop>
+                  </linearGradient>
+                </defs>
+
+                <line class="chart-grid" x1="48" y1="16" x2="544" y2="16"></line>
+                <line class="chart-grid" x1="48" y1="53" x2="544" y2="53"></line>
+                <line class="chart-grid" x1="48" y1="90" x2="544" y2="90"></line>
+                <line class="chart-grid" x1="48" y1="126" x2="544" y2="126"></line>
+                <line class="chart-grid" x1="48" y1="163" x2="544" y2="163"></line>
+                <line class="chart-grid" x1="48" y1="200" x2="544" y2="200"></line>
+
+                <text class="chart-axis" x="40" y="19" text-anchor="end">25k</text>
+                <text class="chart-axis" x="40" y="56" text-anchor="end">20k</text>
+                <text class="chart-axis" x="40" y="93" text-anchor="end">15k</text>
+                <text class="chart-axis" x="40" y="129" text-anchor="end">10k</text>
+                <text class="chart-axis" x="40" y="166" text-anchor="end">5k</text>
+                <text class="chart-axis" x="40" y="203" text-anchor="end">0</text>
+
+                <path class="chart-area" d="M48.0 117.6 L65.1 108.7 L82.2 113.2 L99.3 103.6 L116.4 97.0 L133.5 106.5 L150.6 88.1 L167.7 81.5 L184.8 91.1 L201.9 73.4 L219.0 79.3 L236.1 66.8 L253.2 74.9 L270.3 58.0 L287.4 66.0 L304.6 52.1 L321.7 60.2 L338.8 44.0 L355.9 49.9 L373.0 38.1 L390.1 44.7 L407.2 27.8 L424.3 36.6 L441.4 22.6 L458.5 30.7 L475.6 35.1 L492.7 24.8 L509.8 42.5 L526.9 74.9 L544.0 64.4 L544 200 L48 200 Z"></path>
+                <path class="chart-line" d="M48.0 117.6 L65.1 108.7 L82.2 113.2 L99.3 103.6 L116.4 97.0 L133.5 106.5 L150.6 88.1 L167.7 81.5 L184.8 91.1 L201.9 73.4 L219.0 79.3 L236.1 66.8 L253.2 74.9 L270.3 58.0 L287.4 66.0 L304.6 52.1 L321.7 60.2 L338.8 44.0 L355.9 49.9 L373.0 38.1 L390.1 44.7 L407.2 27.8 L424.3 36.6 L441.4 22.6 L458.5 30.7 L475.6 35.1 L492.7 24.8 L509.8 42.5 L526.9 74.9 L544.0 64.4"></path>
+                <circle class="chart-point" cx="544" cy="64.4" r="4"></circle>
+                <text class="chart-point-label" x="536" y="56" text-anchor="end">$18,4k</text>
+
+                <text class="chart-axis" x="48" y="222" text-anchor="start">22 sep</text>
+                <text class="chart-axis" x="296" y="222" text-anchor="middle">6 oct</text>
+                <text class="chart-axis" x="544" y="222" text-anchor="end">21 oct</text>
+              </svg>
+
+              <table class="sr-only">
+                <caption>Ventas diarias de los últimos 30 días, en miles de USD</caption>
+                <thead>
+                  <tr><th scope="col">Fecha</th><th scope="col">Ventas</th></tr>
+                </thead>
+                <tbody>
+                  <tr><td>22 sep</td><td>11,2</td></tr>
+                  <tr><td>23 sep</td><td>12,4</td></tr>
+                  <tr><td>24 sep</td><td>11,8</td></tr>
+                  <tr><td>25 sep</td><td>13,1</td></tr>
+                  <tr><td>26 sep</td><td>14,0</td></tr>
+                  <tr><td>27 sep</td><td>12,7</td></tr>
+                  <tr><td>28 sep</td><td>15,2</td></tr>
+                  <tr><td>29 sep</td><td>16,1</td></tr>
+                  <tr><td>30 sep</td><td>14,8</td></tr>
+                  <tr><td>1 oct</td><td>17,2</td></tr>
+                  <tr><td>2 oct</td><td>16,4</td></tr>
+                  <tr><td>3 oct</td><td>18,1</td></tr>
+                  <tr><td>4 oct</td><td>17,0</td></tr>
+                  <tr><td>5 oct</td><td>19,3</td></tr>
+                  <tr><td>6 oct</td><td>18,2</td></tr>
+                  <tr><td>7 oct</td><td>20,1</td></tr>
+                  <tr><td>8 oct</td><td>19,0</td></tr>
+                  <tr><td>9 oct</td><td>21,2</td></tr>
+                  <tr><td>10 oct</td><td>20,4</td></tr>
+                  <tr><td>11 oct</td><td>22,0</td></tr>
+                  <tr><td>12 oct</td><td>21,1</td></tr>
+                  <tr><td>13 oct</td><td>23,4</td></tr>
+                  <tr><td>14 oct</td><td>22,2</td></tr>
+                  <tr><td>15 oct</td><td>24,1</td></tr>
+                  <tr><td>16 oct</td><td>23,0</td></tr>
+                  <tr><td>17 oct</td><td>22,4</td></tr>
+                  <tr><td>18 oct</td><td>23,8</td></tr>
+                  <tr><td>19 oct</td><td>21,4</td></tr>
+                  <tr><td>20 oct</td><td>17,0</td></tr>
+                  <tr><td>21 oct</td><td>18,4</td></tr>
+                </tbody>
+              </table>
+            </figure>
+
+            <div class="channel-card">
+              <h4>Ventas por canal</h4>
+              <table class="channel-table">
+                <caption class="sr-only">Ventas por canal</caption>
+                <thead>
+                  <tr><th scope="col">Canal</th><th scope="col">Ventas</th><th scope="col">Participación</th></tr>
+                </thead>
+                <tbody>
+                  <tr><th scope="row">Shopify</th><td>$8.900</td><td class="share"><span class="bar-track" aria-hidden="true"><span class="bar" style="width:48%"></span></span><span>48%</span></td></tr>
+                  <tr><th scope="row">Marketplace</th><td>$5.200</td><td class="share"><span class="bar-track" aria-hidden="true"><span class="bar bar--2" style="width:28%"></span></span><span>28%</span></td></tr>
+                  <tr><th scope="row">Local</th><td>$4.320</td><td class="share"><span class="bar-track" aria-hidden="true"><span class="bar bar--3" style="width:24%"></span></span><span>24%</span></td></tr>
+                </tbody>
+              </table>
+              <p class="channel-note">Participación sobre el total del día.</p>
+            </div>
+          </div>
+
+          <div class="dash-grid">
+            <div class="products-card">
+              <h4>Productos con más rotación</h4>
+              <table class="products-table">
+                <caption class="sr-only">Productos con más rotación</caption>
+                <thead>
+                  <tr><th scope="col">Producto</th><th scope="col">Unidades</th><th scope="col">Ventas</th></tr>
+                </thead>
+                <tbody>
+                  <tr><th scope="row">Campera de lino</th><td>84</td><td>$3.420</td></tr>
+                  <tr><th scope="row">Zapatilla urbana</th><td>61</td><td>$2.980</td></tr>
+                  <tr><th scope="row">Mochila mini</th><td>47</td><td>$1.880</td></tr>
+                  <tr><th scope="row">Gorra clásica</th><td>39</td><td>$1.170</td></tr>
+                </tbody>
+              </table>
+            </div>
+
+            <div class="health-card">
+              <h4>Salud del dato</h4>
+              <ul class="health-list">
+                <li><span class="health-icon" aria-hidden="true">✓</span><span><strong>42</strong> tests pasados</span></li>
+                <li><span class="health-icon" aria-hidden="true">✓</span><span>Actualizado hace 12 min</span></li>
+                <li><span class="health-icon" aria-hidden="true">✓</span><span><strong>0</strong> alertas abiertas</span></li>
+              </ul>
+              <p class="health-note">Si un test falla, el tablero no se publica y el equipo recibe el aviso.</p>
+            </div>
+          </div>
+
+          <p class="dash-foot">Escenario ilustrativo. Los valores no representan resultados de clientes.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section services" id="servicios">
+      <div class="shell">
+        <div class="section-head">
+          <p class="eyebrow">Servicios</p>
+          <h2>Tres formas de <em>ordenar el dato</em>.</h2>
+          <p class="section-lede">Podemos empezar por un problema puntual o construir la base completa. El alcance se adapta a tu operación, no al revés.</p>
+        </div>
+
+        <div class="services-grid">
+          <article class="service-card">
+            <div class="service-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="5" cy="6" r="2"></circle><circle cx="19" cy="12" r="2"></circle><circle cx="5" cy="18" r="2"></circle><path d="M7 6h6a4 4 0 0 1 4 4v0"></path><path d="M7 18h6a4 4 0 0 0 4-4v0"></path></svg>
+            </div>
+            <h3>Pipelines confiables</h3>
+            <p>Ingesta desde APIs, bases de datos, archivos y SaaS. Orquestación, reintentos, tests y alertas para que el dato llegue completo.</p>
+            <ul class="service-tags">
+              <li>Ingesta</li>
+              <li>Orquestación</li>
+              <li>Calidad</li>
+            </ul>
+          </article>
+
+          <article class="service-card">
+            <div class="service-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><ellipse cx="12" cy="5" rx="7" ry="3"></ellipse><path d="M5 5v6c0 1.7 3.1 3 7 3s7-1.3 7-3V5"></path><path d="M5 11v6c0 1.7 3.1 3 7 3s7-1.3 7-3v-6"></path></svg>
+            </div>
+            <h3>Ingeniería de datos</h3>
+            <p>Modelado, warehouse o lakehouse, migraciones y contratos de datos. Una estructura que acompaña al negocio y no lo frena.</p>
+            <ul class="service-tags">
+              <li>Modelado</li>
+              <li>Migraciones</li>
+              <li>Contratos</li>
+            </ul>
+          </article>
+
+          <article class="service-card">
+            <div class="service-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M4 20V4"></path><path d="M4 20h16"></path><rect x="7" y="12" width="3" height="5"></rect><rect x="13" y="8" width="3" height="9"></rect><rect x="19" y="5" width="0.1" height="12"></rect></svg>
+            </div>
+            <h3>Análisis y dashboards</h3>
+            <p>KPIs, tableros operativos y análisis ad hoc. La decisión deja de depender de una planilla armada a mano.</p>
+            <ul class="service-tags">
+              <li>KPIs</li>
+              <li>Tableros</li>
+              <li>Análisis</li>
+            </ul>
+          </article>
+        </div>
+        <p class="services-note">Trabajamos con tu stack actual. Si no hay stack, proponemos uno simple y mantenible.</p>
+      </div>
+    </section>
+
+    <section class="section team" id="equipo">
+      <div class="shell">
+        <div class="section-head">
+          <p class="eyebrow">Equipo</p>
+          <h2>Dos ingenieros. <em>Sin intermediarios.</em></h2>
+        </div>
+
+        <div class="team-panel">
+          <div class="team-mark">
+            <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+              <rect class="mark-cell" x="1" y="1" width="6" height="6" rx="1.2"></rect>
+              <rect class="mark-cell mark-cell--mid" x="9" y="1" width="6" height="6" rx="1.2"></rect>
+              <rect class="mark-cell mark-cell--on" x="17" y="1" width="6" height="6" rx="1.2"></rect>
+              <rect class="mark-cell mark-cell--mid" x="1" y="9" width="6" height="6" rx="1.2"></rect>
+              <rect class="mark-cell mark-cell--on" x="9" y="9" width="6" height="6" rx="1.2"></rect>
+              <rect class="mark-cell" x="17" y="9" width="6" height="6" rx="1.2"></rect>
+              <rect class="mark-cell mark-cell--on" x="1" y="17" width="6" height="6" rx="1.2"></rect>
+              <rect class="mark-cell" x="9" y="17" width="6" height="6" rx="1.2"></rect>
+              <rect class="mark-cell mark-cell--mid" x="17" y="17" width="6" height="6" rx="1.2"></rect>
+            </svg>
+            <p>Preferimos un sistema simple que tu equipo entienda antes que una arquitectura impresionante que nadie puede mantener.</p>
+          </div>
+
+          <div class="team-body">
+            <p>DaTab somos dos ingenieros de datos. Nos ocupamos de punta a punta: fuentes, modelo, tests, tablero y handoff. Hablas siempre con las personas que diseñan y construyen el pipeline.</p>
+            <ul class="team-points">
+              <li>
+                <strong>Trabajo directo</strong>
+                <span>Sin account managers ni traspasos: el mismo equipo que diseña es el que implementa.</span>
+              </li>
+              <li>
+                <strong>Documentación y handoff</strong>
+                <span>El pipeline queda versionado, con tests y una guía para operarlo.</span>
+              </li>
+              <li>
+                <strong>Sin lock-in</strong>
+                <span>Usamos estándares y herramientas que tu equipo puede mantener o migrar.</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section faq" id="preguntas">
+      <div class="shell">
+        <div class="faq-grid">
+          <div>
+            <p class="eyebrow">Preguntas</p>
+            <h2>Lo que suele aparecer <em>antes de empezar</em>.</h2>
+            <p class="section-lede">Si tu caso no está acá, escríbenos. Preferimos una conversación corta a una propuesta genérica.</p>
+          </div>
+
+          <div class="faq-list">
+            <details class="faq-item" open>
+              <summary>¿Trabajan con empresas que todavía usan planillas?</summary>
+              <p>Sí. Casi siempre el punto de partida son Excel o Google Sheets. Primero ordenamos las fuentes y definimos qué dato manda; después vemos qué herramienta hace falta.</p>
+            </details>
+            <details class="faq-item">
+              <summary>¿Necesito contratar nuevas herramientas?</summary>
+              <p>No necesariamente. Si tu stack actual alcanza, lo usamos. Si hace falta algo, lo justificamos y priorizamos opciones simples de operar.</p>
+            </details>
+            <details class="faq-item">
+              <summary>¿Cuánto tarda un primer entregable?</summary>
+              <p>Depende del alcance y de la calidad de las fuentes. El diagnóstico inicial permite estimar un primer entregable en semanas, no en meses.</p>
+            </details>
+            <details class="faq-item">
+              <summary>¿Qué pasa después de la entrega?</summary>
+              <p>Queda documentado, versionado y con tests. Podemos acompañar la operación o capacitar a tu equipo para que lo mantenga.</p>
+            </details>
+            <details class="faq-item">
+              <summary>¿Trabajan con datos sensibles?</summary>
+              <p>Sí. Definimos accesos mínimos y acuerdos de confidencialidad antes de empezar.</p>
+            </details>
+            <details class="faq-item">
+              <summary>¿Trabajan fuera de Tabasco?</summary>
+              <p>Somos de Cárdenas, Tabasco. Atendemos pymes de Tabasco y trabajamos en remoto con empresas del resto de México. Coordinamos horarios según tu ciudad.</p>
+            </details>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section contact" id="contacto">
+      <div class="shell">
+        <div class="contact-card">
+          <div class="contact-inner">
+            <div>
+              <p class="eyebrow">Contacto</p>
+              <h2>¿Empezamos por un <em>diagnóstico</em>?</h2>
+              <p>Cuéntanos qué decisiones estás tomando con datos dispersos. Te respondemos con un primer mapa de fuentes, riesgos y próximos pasos.</p>
+              <div class="contact-actions">
+                <a class="btn contact-btn" href="mailto:contacto@datatab.com.mx?subject=Diagn%C3%B3stico%20de%20datos%20%C2%B7%20DaTab">
+                  Agendar diagnóstico
+                  <svg viewBox="0 0 16 16" aria-hidden="true" focusable="false"><path d="M3 8h9M8.5 4.5 12 8l-3.5 3.5" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+                </a>
+              </div>
+            </div>
+
+            <div class="contact-meta">
+              <p class="contact-note">Escríbenos</p>
+              <a class="contact-link" href="mailto:contacto@datatab.com.mx?subject=Diagn%C3%B3stico%20de%20datos%20%C2%B7%20DaTab">contacto@datatab.com.mx</a>
+              <a class="contact-link" href="https://www.facebook.com/datatabmx/" target="_blank" rel="noopener" aria-label="DaTab en Facebook">Facebook</a>
+              <p class="contact-small">Sin formularios, sin cookies y sin tracking. Solo una conversación.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="shell footer-inner">
+      <div>
+        <a class="brand brand--footer" href="#inicio" aria-label="DaTab, inicio">
+          <svg class="brand-mark" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+            <rect class="mark-cell" x="1" y="1" width="6" height="6" rx="1.2"></rect>
+            <rect class="mark-cell mark-cell--mid" x="9" y="1" width="6" height="6" rx="1.2"></rect>
+            <rect class="mark-cell mark-cell--on" x="17" y="1" width="6" height="6" rx="1.2"></rect>
+            <rect class="mark-cell mark-cell--mid" x="1" y="9" width="6" height="6" rx="1.2"></rect>
+            <rect class="mark-cell mark-cell--on" x="9" y="9" width="6" height="6" rx="1.2"></rect>
+            <rect class="mark-cell" x="17" y="9" width="6" height="6" rx="1.2"></rect>
+            <rect class="mark-cell mark-cell--on" x="1" y="17" width="6" height="6" rx="1.2"></rect>
+            <rect class="mark-cell" x="9" y="17" width="6" height="6" rx="1.2"></rect>
+            <rect class="mark-cell mark-cell--mid" x="17" y="17" width="6" height="6" rx="1.2"></rect>
+          </svg>
+          <span class="brand-word">Da<span class="brand-word-accent">Tab</span></span>
+        </a>
+        <p class="footer-tagline">Ingeniería de datos para empresas de Tabasco, México.</p>
+      </div>
+
+      <nav class="footer-nav" aria-label="Navegación del pie">
+        <a href="#proceso">Proceso</a>
+        <a href="#demo">Demo</a>
+        <a href="#servicios">Servicios</a>
+        <a href="#equipo">Equipo</a>
+        <a href="#preguntas">Preguntas</a>
+        <a href="#contacto">Contacto</a>
+      </nav>
+
+      <div class="footer-legal">
+        <p>© 2026 DaTab</p>
+        <p>Sitio estático, sin cookies ni analítica.</p>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
